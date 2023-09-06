@@ -45,4 +45,13 @@ public class UsuarioController {
     user.setEmail("lope@gmail.com");
     return user;
   }
+
+  @RequestMapping(value = "userssa")
+  public User buscarw(){
+    User user = new User();
+    user.setNombre("Juan");
+    user.setApellido("Lopez");
+    user.setEmail("lope@gmail.com");
+    return user;
+  }
 }
